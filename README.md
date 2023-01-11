@@ -9,13 +9,13 @@ Projeto em grupo realizado por Tayana Souza, Thiago Silva, Letícia Moretti e Ka
 Trabalho do módulo 3 do curso de Desenvolvimento Web FullStack da Resília - em parceria com os Programadores Cariocas, uma iniciativa da Prefeitura do Rio de Janeiro.
 
 1. Ferramentas utilizadas: 
-• ReactJS
-• NodeJS
-• json-server
-• JavaScript
-• HTML
-• CSS
-• Bootstrap
+• ReactJS  
+• NodeJS  
+• json-server  
+• JavaScript  
+• HTML  
+• CSS  
+• Bootstrap  
 
 2. Objetivo:
 
