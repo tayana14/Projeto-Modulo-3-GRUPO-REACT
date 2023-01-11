@@ -1,0 +1,23 @@
+
+
+.imoveis_container {
+  width: 450px;
+  margin: 0 auto; /*Usado para centralizar o container na tela */
+  padding: 3em; /*Espaçamento interno do conteúdo */
+  /*background-color: rgb(216, 139, 51);*/
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*border:  1px solid black;*/
+ /* margin-left: 25px; */
+}
+
+.imoveis_container h1 {
+  margin-bottom: 0.5em; /*Para afastar o parágrafo que está embaixo desse título*/
+  color:white;
+}
+
+
+.imoveis_container p {
+  color:white;
+}

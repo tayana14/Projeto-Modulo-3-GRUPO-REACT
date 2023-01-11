@@ -1,0 +1,42 @@
+.footer {
+  background-color: rgb(14, 13, 13); /*Cor do rodapé */
+  color: #fff; /*Cor das letras do rodapé */
+  padding-top: 3em;
+  text-align: center;
+}
+
+.social_list {
+  /*Icones das mídias sociais*/
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+.social_list li {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.social_list li:hover {
+  /*Cor que muda ao passar o mouse nos ícones */
+  color: rgb(235, 194, 83);
+}
+
+
+.social_list svg {
+  /*Tamanho dos ícones */
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.copy_right {
+  /*Cor do nome da empresa no rodapé */
+  margin-top: 0.5em;
+}
+
+.copy_right span {
+  /*Cor do nome da empresa no rodapé */
+  font-weight: bold;
+  color: rgb(235, 194, 83);
+}

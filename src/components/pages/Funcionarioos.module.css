@@ -1,0 +1,19 @@
+.card{
+    text-align: center;
+}
+    .h1{
+        text-align: center;
+    }
+    .cardtitle{
+        color: rgb(255, 123, 0);
+    
+    }
+    .h1{
+        color: white;
+        
+    }
+   .container
+   :hover{
+        border: 2px solid white;
+        border-color: rgb(224, 182, 66);
+    }
