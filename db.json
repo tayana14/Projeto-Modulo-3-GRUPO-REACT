@@ -1,0 +1,206 @@
+{
+  "vendedores": [
+    {
+      "id": 1,
+      "tipo": "Supervisora",
+      "nome": "Leticia Moreti",
+      "idade": 21,
+      "ano-admissao": 2008,
+      "salario": 3050,
+      "cpf": 4901457796,
+      "rg": "4645454646"
+    },
+    {
+      "id": 2,
+      "tipo": "Auxiliar de Atendente",
+      "nome": "Kauã Soares",
+      "idade": 19,
+      "ano-admissao": 2017,
+      "salario": 2550,
+      "cpf": 854679562,
+      "rg": "645454"
+    },
+    {
+      "id": 3,
+      "tipo": "Auxiliar de Serviços Gerais",
+      "nome": "Alberto Duarte",
+      "idade": 42,
+      "ano-admissao": 2005,
+      "salario": 1500,
+      "cpf": 1216479632,
+      "rg": "45646545"
+    },
+    {
+      "id": 4,
+      "tipo": "Atendimento ao cliente",
+      "nome": "Bruno Silva",
+      "idade": 25,
+      "ano-admissao": 2019,
+      "salario": 1500,
+      "cpf": 9874545985,
+      "rg": "654464564567"
+    }
+  ],
+  "imovel": [
+    {
+      "id": 1,
+      "tipo": "IMAX",
+      "name": "Imax",
+      "filme": "A Mulher Rei",
+      "duracao": "170mn",
+      "classificacao": "18",
+      "horario": "20:00",
+      "idioma": "Dub Português",
+      "assento": "1 M",
+      "budget": "90000",
+      "category": {
+        "id": "IMAX",
+        "tipo": "imax"
+      }
+    },
+    {
+      "id": 2,
+      "tipo": "XPlus",
+      "filme": "Pantera Negra: Wakanda Para Sempre",
+      "duracao": "170mn",
+      "classificacao": " 17",
+      "horario": "18:30hrs",
+      "idioma": " Dub Português",
+      "assento": "1 M",
+      "budget": "90000",
+      "category": {
+        "id": "Selecione uma opção",
+        "tipo": "Selecione uma opção"
+      }
+    },
+    {
+      "id": 3,
+      "tipo": "XD",
+      "filme": "Adão Negro",
+      "duracao": "200",
+      "classificacao": "Maiores de 16",
+      "horario": "14:00hrs",
+      "idioma": "Dub Português",
+      "assento": "1M",
+      "budget": "90000",
+      "category": {
+        "id": "imax",
+        "tipo": "IMAX"
+      }
+    }
+  ],
+  "compradores": [
+    {
+      "id": 1,
+      "tipo": "Na planta",
+      "nome": "José Roberto",
+      "idade": 49,
+      "entrada": 200000,
+      "imovelId": 1,
+      "cpf": 4901457796
+    },
+    {
+      "id": 2,
+      "tipo": "Médio padrão",
+      "nome": "Maitê Moura",
+      "idade": 38,
+      "entrada": 150000,
+      "imovelId": 2,
+      "cpf": 789456123
+    },
+    {
+      "id": 3,
+      "tipo": "Alto padrão",
+      "nome": "Carla Donato",
+      "idade": 35,
+      "entrada": 300000,
+      "imovelId": 3,
+      "cpf": 456789123
+    }
+  ],
+  "Novase": [
+    {}
+  ],
+  "Filmes": [
+    {
+      "id": 1,
+      "name": "Pantera Negra: Wakanda Para Sempre",
+      "descricao": "Em Wakanda, a Rainha Ramonda, Shuri, M'Baku, Okoye e as Dora Milaje lutam para proteger a sua nação de potências mundiais, na sequência da morte do rei T'Challa. Enquanto os Wakandianos se esforçam para abraçar o próximo capítulo, os heróis unem-se com a ajuda de War Dog Nakia e Everett Ross para descobrirem um novo caminho para o reino de Wakanda.",
+      "genero": "Aventura",
+      "sala_id": "3",
+      "sessao_id": "2",
+      "cartaz": "https://s2.glbimg.com/CV473j0T17G1kNT369lbJ_jJKSE=/0x0:743x1100/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2022/A/A/tUlOuNRDGBdBhUaBgGtg/wakanda.png"
+    },
+    {
+      "id": 2,
+      "name": "Adão Negro",
+      "descricao": "Nascido no Egito Antigo, o anti-herói tem super força, velocidade, resistência, capacidade de voar e de disparar raios. Alter ego de Teth-Adam e filho do faraó Ramsés II, Adão Negro foi consumido por poderes mágicos e transformado em um feiticeiro. Grande inimigo de Shazam! nas HQs, apesar dele acreditar em seu pontecial e, inclusive, oferecê-lo como um guerreiro do bem, Adão Negro acaba usando suas habilidades especiais para o mal. O anti-herói em busca de redenção ou um herói que se tornou vilão, pode ser capaz de destruir tudo o que estiver pela frente - ou de encontrar seu caminho.",
+      "genero": "Ação",
+      "sala_id": "3",
+      "sessao_id": "2",
+      "cartaz": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrULQHUpm3Zr60AXFAltaQkpo6DAe8FZmhSrYsa7t5DCUeaeF9"
+    },
+    {
+      "id": 3,
+      "name": "Não se preocupe, querida",
+      "descricao": "O casal Alice (Florence Pugh) e Jack (Harry Styles) mora numa cidade experimental do ultrassecreto Projeto Vitória. A vida nesta comunidade planejada da década de 1950 é, praticamente, perfeita. Todas as necessidades dos moradores são atendidas pela empresa. A única contrapartida, não negociável, exigida é a discrição, como lembra um dos líderes (Chris Pine). Quando o mistério passa a incomodar alguns vizinhos e muitas dúvidas são deixadas no ar, Alice acredita que eles precisam ir embora dali. Só que essa escolha pode não ser tão simples.",
+      "genero": "Drama",
+      "sala_id": "2",
+      "sessao_id": "1",
+      "cartaz": "https://portalpopline.com.br/wp-content/uploads/2022/09/FcjB3qeXoAAl1wt-640x800.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Crepúsculo",
+      "descricao": "A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente. Edward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.",
+      "genero": "Romance",
+      "sala_id": "4",
+      "sessao_id": "4",
+      "cartaz": "https://upload.wikimedia.org/wikipedia/pt/c/c1/Twilight_Poster.jpg"
+    }
+  ],
+  "Salas": [
+    {
+      "id": 1,
+      "sala": "1",
+      "assentos": "48"
+    },
+    {
+      "id": 2,
+      "sala": "2",
+      "assentos": "50"
+    },
+    {
+      "id": 3,
+      "sala": "3",
+      "assentos": "68"
+    },
+    {
+      "id": 4,
+      "sala": "4",
+      "assentos": "88"
+    }
+  ],
+  "Sessao": [
+    {
+      "id": 1,
+      "nome": "Legendado",
+      "tela": "2D"
+    },
+    {
+      "id": 2,
+      "nome": "Nacional",
+      "tela": "2D"
+    },
+    {
+      "id": 3,
+      "nome": "Dublado",
+      "tela": "3D"
+    },
+    {
+      "id": 4,
+      "nome": "Legendado",
+      "tela": "4D"
+    }
+  ]
+}
